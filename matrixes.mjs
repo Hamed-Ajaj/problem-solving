@@ -3,6 +3,14 @@ export const twoBytwoMatrix = [
   [3, 4],
 ];
 
+export const twoByThreeMatrix = [
+  [
+    [1, 4],
+    [2, 5],
+    [3, 6],
+  ],
+];
+
 export const threeBythreeMatrix = [
   [1, 2, 3],
   [4, 5, 6],
