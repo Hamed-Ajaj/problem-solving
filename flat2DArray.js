@@ -7,11 +7,14 @@ const flatTwoDArray = (arr) => {
   }
   return oneDArray;
 };
-
 const arr = [
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9],
 ];
-const result = flatTwoDArray(arr);
+const twoByTwoArr = [
+  [1, 2],
+  [3, 4],
+];
+const result = flatTwoDArray(twoByTwoArr);
 console.log(result);
