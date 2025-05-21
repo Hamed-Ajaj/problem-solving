@@ -13,4 +13,4 @@ const permutations = (string) => {
   return Array.from(permutedSet);
 };
 
-console.log(permutations("aa"));
+console.log(permutations("abc"));
