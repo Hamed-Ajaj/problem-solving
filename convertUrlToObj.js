@@ -2,11 +2,12 @@ function queryToObject(query) {
   const result = {};
 
   const pairs = query.split("&");
-
   for (const pair of pairs) {
     const [rawKey, rawValue] = pair.split("=");
+
     const keys = rawKey.split(".");
     const value = decodeURIComponent(rawValue);
+    console.log(value);
 
     let current = result;
     if (!query) return result; // ✅ Handle empty string
